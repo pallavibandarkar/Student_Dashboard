@@ -29,7 +29,7 @@ import {
 } from "@/components/ui/table";
 
 export default function Page() {
-  const [darkMode, setDarkMode] = useState(true); // Start in dark mode
+  const [darkMode, setDarkMode] = useState(true);
 
   const dummyData = {
     attendance: "92%",
